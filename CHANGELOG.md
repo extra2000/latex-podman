@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/extra2000/latex-podman/compare/v1.0.0...v1.1.0) (2021-10-27)
+
+
+### Features
+
+* **texlive:** add `texlive-music` package ([aba07ff](https://github.com/extra2000/latex-podman/commit/aba07ffdbe38a1953255c373cec73b3487f4c6f1))
+
+
+### Continuous Integrations
+
+* **appveyor:** ensure certs are always latest ([d3bcc0f](https://github.com/extra2000/latex-podman/commit/d3bcc0fb919dfe51dcf6f31b1d84d79b02c19c4c))
+
 ## 1.0.0 (2021-08-13)
 
 

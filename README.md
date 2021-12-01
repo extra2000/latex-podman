@@ -12,10 +12,3 @@ LaTeX Dockerfile.
 ```
 podman build -t extra2000/latex .
 ```
-
-
-## Importing SELinux Policy
-
-```
-sudo semodule -i selinux/latex.cil /usr/share/udica/templates/base_container.cil
-```

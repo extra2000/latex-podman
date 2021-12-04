@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://github.com/extra2000/latex-podman/compare/v1.1.0...v1.1.1) (2021-12-04)
+
+
+### Code Refactoring
+
+* remove `selinux` policy ([9c36254](https://github.com/extra2000/latex-podman/commit/9c362547159b9f397c8a54d85bd8857b387abd33))
+
 ## [1.1.0](https://github.com/extra2000/latex-podman/compare/v1.0.0...v1.1.0) (2021-10-27)
 
 

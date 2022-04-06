@@ -11,6 +11,10 @@ install:
   - sudo apt -y upgrade
   - sudo apt -y install podman
 build_script:
+  - git clone https://github.com/extra2000/docker-texlive-full.git ${APPVEYOR_BUILD_FOLDER}/src/docker-texlive-full
+  - cd ${APPVEYOR_BUILD_FOLDER}/src/docker-texlive-full/image
+  - sudo podman build -t thomasweise/docker-texlive-full .
+  - cd ${APPVEYOR_BUILD_FOLDER}
   - sudo podman build -t extra2000/latex .
 on_success:
   - wget https://raw.githubusercontent.com/creationix/nvm/v0.38.0/install.sh

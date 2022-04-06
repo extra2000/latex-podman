@@ -1,5 +1,4 @@
-FROM docker.io/thomasweise/docker-texlive-full
-MAINTAINER extra2000 <https://github.com/extra2000>
+FROM localhost/thomasweise/docker-texlive-full
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBIAN_PRIORITY critical

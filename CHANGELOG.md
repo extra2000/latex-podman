@@ -1,5 +1,22 @@
 # Changelog
 
+### [1.1.2](https://github.com/extra2000/latex-podman/compare/v1.1.1...v1.1.2) (2022-04-06)
+
+
+### Continuous Integrations
+
+* **appveyor:** update `build_script` ([b7f30e8](https://github.com/extra2000/latex-podman/commit/b7f30e84255cd7238ab7349251714cf7d7a2614f))
+
+
+### Documentations
+
+* **README:** add instructions to build from source ([3feea7e](https://github.com/extra2000/latex-podman/commit/3feea7eeb159dd4169bad0a9282b65974a41c6d7))
+
+
+### Code Refactoring
+
+* use image at localhost build ([2b9ab7e](https://github.com/extra2000/latex-podman/commit/2b9ab7eabad58f6a234f4e725cef03ce023e6f02))
+
 ### [1.1.1](https://github.com/extra2000/latex-podman/compare/v1.1.0...v1.1.1) (2021-12-04)
 
 

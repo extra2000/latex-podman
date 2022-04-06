@@ -9,6 +9,18 @@ LaTeX Dockerfile.
 
 ## Building
 
+Clone [extra2000/docker-texlive-full](https://github.com/extra2000/docker-texlive-full) repository:
+```
+git clone https://github.com/extra2000/docker-texlive-full.git src/docker-texlive-full
+```
+
+Build `docker-texlive-full` image:
+```
+cd src/docker-texlive-full/image
+podman build -t thomasweise/docker-texlive-full .
+```
+
+Build `latex` image:
 ```
 podman build -t extra2000/latex .
 ```

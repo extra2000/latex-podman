@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://github.com/extra2000/latex-podman/compare/v1.1.2...v2.0.0) (2023-05-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* no longer using `docker-texlive-full` image
+
+### Code Refactoring
+
+* using our own Dockerfile ([f193efc](https://github.com/extra2000/latex-podman/commit/f193efc26e7d87c7a6cab0e055bbadefdbf0d52b))
+
+
+### Continuous Integrations
+
+* replace AppVeyor with Github Action ([db32496](https://github.com/extra2000/latex-podman/commit/db32496553976a7963425fa0f7c517bfcba6b34d))
+
 ### [1.1.2](https://github.com/extra2000/latex-podman/compare/v1.1.1...v1.1.2) (2022-04-06)
 
 

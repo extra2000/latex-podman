@@ -26,6 +26,9 @@ RUN apt update && apt install -y \
         tar \
         libalgorithm-diff-perl \
         texlive-music \
+        tidy \
+        xindy \
+        epubcheck \
     && apt clean
 
 WORKDIR /srv/project

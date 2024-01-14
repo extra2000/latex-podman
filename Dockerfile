@@ -29,6 +29,7 @@ RUN apt update && apt install -y \
         tidy \
         xindy \
         epubcheck \
+        fonts-noto-cjk \
     && apt clean
 
 WORKDIR /srv/project
